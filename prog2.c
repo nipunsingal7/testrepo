@@ -35,29 +35,9 @@ for(a=0;a<=100;a++)                                /*for loop is used so that we
                      printf("\n\n");
                      break;
 
-               case 2:printf("\nQ2. A function cannot be defined inside another function?\n answer--");
-                     scanf("%s",&ans);
-                     if(ans=='T'||ans=='t')
-                     {scr[1]=1;}
-                     else
-                     {scr[1]=-1;}
-                     printf("\n\n");
-                     break;
+               
 
-              case 3:printf("\nQ3. The ++ operator increments the operand by 1, whereas, the -- operator decrements it by 1?\n answer--");
-                     scanf("%s",&ans);
-                     if(ans=='T'||ans=='t')
-
-                     break;
-
-              case 4:printf("\nQ4. Functions cannot return more than one value at a time?\n answer--");
-                     scanf("%s",&ans);
-                     if(ans=='T'||ans=='t')
-                     {scr[3]=1;}
-                     else
-                     {scr[3]=-1;}
-                     printf("\n\n");
-                     break;
+       
 
             case 5:printf("\nQ5. The keywords cannot be used as variable names?\n answer--");
                      scanf("%s",&ans);
